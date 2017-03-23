@@ -5,7 +5,7 @@ public class Task3 {
 		double[] input = {1, 1.2, 3, 4};
 		double x = input[0];
 		
-		for (int i = 1; i < input.length; i++){
+		for (int i = 1; i < input.length; i++){// нужно всегда подзадачи решать через отдельные методы
 			if (x > input[i]){
 				System.out.println("Not increasing set!");
 				return;
